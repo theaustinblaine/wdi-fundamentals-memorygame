@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+}
+h1, h2, .links {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+}
+
+.links {
+	font-family: Raleway;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+h2 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+
+}
+
+.description {
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size: 18px;
+}
