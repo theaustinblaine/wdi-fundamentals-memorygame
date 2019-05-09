@@ -6,10 +6,6 @@ h1, h2, .links {
 	text-transform: uppercase;
 }
 
-a {
-	text-decoration: none;
-}
-
 h1 {
 	font-family: Raleway;
 ]	letter-spacing: 1px;
@@ -54,8 +50,14 @@ nav {
 }
 
 a {
+	text-decoration: none;
 	margin: 0 20px;
 	color: #FFFFFF !important;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-bottom: 2px solid white;
 }
 
 main {
@@ -66,3 +68,38 @@ main {
 img {
 	margin: 40px 8px 0 8px;
 }
+
+footer {
+	text-decoration: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	font-family: Raleway;
+	float: left;
+}
+
+.message {
+	font-family: Raleway;
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
